@@ -1,0 +1,87 @@
+h1 {
+    color: white;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header * {
+    border: solid;
+    color: #86A260;
+    background-color: #556655;
+}
+
+.header  {
+    background-color: #527283;
+    display: flex;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:link{
+    color: #82F872;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a:visited{
+    color: #F282FC;
+}
+
+.menu{
+    margin-right: 30px;
+}
+
+.menu a{
+    margin-left: 1cm;
+}
+
+.item{
+    position: relative;
+    font-family: monospace;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p{
+    opacity: 1;
+    font-family: monospace;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+body{
+    background-color: #AAAAAA;
+}
